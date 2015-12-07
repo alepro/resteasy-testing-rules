@@ -22,7 +22,7 @@ public class HotelsResourceTest {
                     .withAllowedMethods("GET, POST")
                     .withAllowedOrigins(newArrayList("http://host1.com", "http://host2.com"))
                     .build());
-
+    
     
     @Test
     public void shouldBeOK() throws URISyntaxException {
